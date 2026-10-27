@@ -1,0 +1,134 @@
+{
+  "kind": "latency",
+  "title": "延迟测试报告 @ https://api.example.com/v1",
+  "created_at": "2026-01-01 10:00:00",
+  "api_url": "https://api.example.com/v1",
+  "models": [],
+  "config": {
+    "测试次数": 10,
+    "并发数": 1,
+    "超时时间(秒)": 30,
+    "请求目标": "/models",
+    "对话模型": "-"
+  },
+  "summary": {
+    "total": 10,
+    "success": 10,
+    "failed": 0,
+    "timeouts": 0,
+    "success_rate": 100.0,
+    "avg_ms": 138.58,
+    "min_ms": 79.47,
+    "max_ms": 229.67,
+    "std_ms": 58.1,
+    "p50_ms": 111.56,
+    "p90_ms": 224.79,
+    "p95_ms": 227.23,
+    "p99_ms": 229.18,
+    "error_distribution": {}
+  },
+  "summary_text": "平均 139ms / P95 227ms / 成功率 100.0%（10 次）",
+  "rows": [
+    {
+      "ok": true,
+      "latency_ms": 159.6,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 1,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 79.47,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 2,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 224.25,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 3,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 132.05,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 4,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 86.17,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 5,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 91.06,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 6,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 229.67,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 7,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 204.39,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 8,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 90.26,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 9,
+      "target": "models"
+    },
+    {
+      "ok": true,
+      "latency_ms": 88.93,
+      "status": 200,
+      "error_kind": null,
+      "error": "",
+      "timeout": false,
+      "index": 10,
+      "target": "models"
+    }
+  ],
+  "errors": []
+}
