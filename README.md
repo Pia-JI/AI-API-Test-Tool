@@ -1,5 +1,9 @@
 # AI API 工具箱（AI-API-Toolbox）
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+![Platform](https://img.shields.io/badge/Platform-Windows%2010%2F11-lightgrey.svg)
+
 一个面向 **OpenAI 兼容接口** 的 Windows 桌面测试工具：填入 API 地址与 API Key 后，
 可以自动获取模型列表、测量网络延迟与稳定性、测试每个模型的首 Token 时间与生成速度，
 并生成可导出的测试报告。基于 Python + PyQt5 开发，使用 PyInstaller 打包为**单个 exe**，
@@ -52,6 +56,7 @@ examples/                         # 脱敏示例（配置结构与报告格式�
 ├── config.example.json
 └── report.example.json
 .gitignore                        # 排除 data/ dist/ build/ 等运行时数据
+LICENSE                           # MIT 许可证
 ```
 
 > 打包过程中还会生成 `build/`（中间文件）与 `dist/AI-API-Toolbox.exe`（最终产物）。
@@ -253,3 +258,13 @@ copy examples\config.example.json data\config.json
 
 > 若曾把含真实数据的版本提交过，仅靠删除文件是不够的，历史提交里仍留有副本，
 > 需要改写提交历史（如 `git filter-repo`）并**立即在服务商处轮换该 Key**。
+
+---
+
+## 九、许可证
+
+本项目基于 [MIT License](LICENSE) 开源，Copyright (c) 2026 Pia-JI。
+
+简单来说，你可以自由地使用、修改、分发甚至商用本项目，**唯一的要求是保留原始版权声明
+与许可证声明**。软件按「现状」提供，作者不承担任何担保责任——例如因测试行为产生的
+API 调用费用，需由使用者自行承担。
